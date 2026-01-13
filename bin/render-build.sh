@@ -8,3 +8,4 @@ bundle exec rails assets:clean
 
 # データベースのマイグレーション
 bundle exec rails db:migrate
+bundle exec rails db:seed
