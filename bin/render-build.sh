@@ -6,7 +6,7 @@ bundle exec rails assets:precompile
 bundle exec rails assets:clean
 
 # 全てのテーブルを Supabase 上に作成
-bundle exec rails db:migrate
+bundle exec rails db:prepare
 
 # デモユーザー作成
 bundle exec rails db:seed
